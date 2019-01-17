@@ -67,7 +67,6 @@ class Header extends Component {
 
   render() {
     let c = this.handleClass(this.state.urlf);
-    console.log(this.state.person);
     return (
       <div class="outer">
       <Link to ='/users'><button class = 'btnn btn btn-primary'>users</button></Link>

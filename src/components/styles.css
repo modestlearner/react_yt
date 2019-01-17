@@ -31,6 +31,23 @@
   top: 70%;
   left: 83%;
 }
-.table{
-  margin:50px
+.table {
+  margin: 50px;
+}
+
+.custom {
+  margin: 5px;
+  width: 78px;
+}
+.m {
+  margin: 0px;
+}
+.modal {
+  width: 75%;
+  height: 75%;
+  background-color: yellowgreen
+}
+.form{
+  top:500px;
+  background-color: yellow
 }

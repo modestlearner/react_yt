@@ -8,12 +8,15 @@ import "bootstrap/dist/css/bootstrap.css";
 import { Route, Switch } from "react-router-dom";
 import { BrowserRouter as Router } from "react-router-dom";
 import Users from "./components/users";
+import Form from "./components/form";
+
 
 const r = (
     <Router>
         <div>
         <Route exact path="/" component={Header} />
         <Route path="/users" component={Users} />
+        <Route path="/form" component={Form} />
         
         </div>
       
