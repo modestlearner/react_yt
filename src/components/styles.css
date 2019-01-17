@@ -1,17 +1,36 @@
 .header {
-    height: 400px;
-    width: 80%;
-    padding: 30px;
-    margin: auto;
-    background-color:#797D7F ;
-  }
-  .outer {
-    padding: 30px 0px;
-    /* background-color: bisque */
-  }
-  .rsize {
-    position: relative;
-    width:100%;
-    height:100%
-    
-  }
+  height: 400px;
+  width: 80%;
+  padding: 30px;
+  margin: auto;
+  background-color: #797d7f;
+}
+.outer {
+  padding: 30px 0px;
+}
+.rsize {
+  position: relative;
+  left: 00px;
+  top: 150px;
+  margin: 0px 80px 00px 80px;
+  height: 200px;
+  width: 300px;
+}
+.box {
+  /* position: relative; */
+  width: 100%;
+  height: 100%;
+}
+
+.boxhidden {
+  display: none;
+}
+.btnn {
+  position: absolute;
+  /* float: right; */
+  top: 70%;
+  left: 83%;
+}
+.table{
+  margin:50px
+}
